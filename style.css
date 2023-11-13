@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*Özel Buton*/
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/header-bg.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+.header-content {
+  color: purple;
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 7vmin;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.header-content h2 {
+  font-size: 4vmin;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: whitesmoke;
+  padding: 20px;
+  align-items: center;
+}
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+}
+
+.line {
+  background-color: #fc036b;
+  width: 150px;
+  height: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.mybutton {
+  display: inline-block;
+  background-color: #fc036b;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+}
+.mybutton:hover {
+  background-color: whitesmoke;
+  color: #fc036b;
+  border: 1px solid #fc036b;
+}
+
+.events {
+  margin-bottom: 40px;
+}
+.events-title {
+  text-align: center;
+  font-size: 4vmin;
+  margin: 50px 0;
+  color: purple;
+}
+.events-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.events-row-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 15px;
+}
+.events-row-col h4 {
+  color: purple;
+}
+.events-row-col p {
+  text-align: start;
+  word-wrap: wrap;
+  word-break: break-all;
+  color: black;
+  font-size: 18px;
+  width: 80%;
+}
+.events-row-col img {
+  width: 80%;
+}
+
+.explore {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/bg2.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+}
+.explore-content {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.explore-content p {
+  color: black;
+  width: 80%;
+}
+
+.explore-content h1 {
+  color: purple;
+  font-size: 4vmin;
+  text-align: center;
+  
+
+}
+
+.tours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+}
+.tours-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  margin-right: 5px;
+  gap: 20px;
+}
+.tours-left p {
+  width: 50%;
+}
+.tours-left h1{
+  color: purple;
+}
+.tours-right {
+  width: 510px;
+  margin-top: 10px;
+}
+.tours-right-gallery img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  background-color: #484872;
+  width: 100%;
+  text-align: center;
+  padding: 20px 80px;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.menu-btn {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
